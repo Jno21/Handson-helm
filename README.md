@@ -2,7 +2,7 @@
 
 This is an introduction to Helm.
 
-:warning: **Skip the step you already have done**
+:warning: **Skip the step you have done**
 
 # Pre-requisites
 
@@ -39,9 +39,11 @@ Fill with this:
 - **Others**: [Official documentation](https://docs.helm.sh/using_helm/#installing-helm)
 
 ### Let's go
-`./helm-init.sh`
 
-Do this on every shell you use (Or add it to your `.bashrc` or `.zshrc`)
+Init helm with this script: `./helm-init.sh`
+
+Do this on every shell you use (Or add it to your `.bashrc` or `.zshrc`):
+
 `export TILLER_NAMESPACE=yourusername`
 > If you forgot to do this shit I am going to hit you with a stick.
 
