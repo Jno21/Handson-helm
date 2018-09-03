@@ -31,7 +31,7 @@ kube-state-metrics:
 > You should choose your release-name ! Check the readme with cheat sheet and be creative !
 - It is not going to work ! The output explain why ! I let you find how to correct this.
 > There is 2 method available to do this.
-- Install the integration (Kubernetes on datadog)[https://app.datadoghq.com/account/settings#integrations]
+- Install the integration [Kubernetes on datadog](https://app.datadoghq.com/account/settings#integrations)
 - Go check if you get data on your [Dashboard](https://app.datadoghq.com/dashboard/lists) Kubernetes.
 - Waaahhoouuu magic is happening.
 
