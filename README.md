@@ -40,11 +40,14 @@ Fill with this:
 
 ### Let's go
 
-Init helm with this script: `./helm-init.sh`
+**your-username**: `1st letter of first name + last name`
+Example: `bpetit`
+
+Init helm with this script: `./helm-init.sh <your-username>`
 
 Do this on every shell you use (Or add it to your `.bashrc` or `.zshrc`):
 
-`export TILLER_NAMESPACE=yourusername`
+`export TILLER_NAMESPACE=<your-username>`
 > If you forgot to do this shit I am going to hit you with a stick.
 
 # Helm cheat sheet:
