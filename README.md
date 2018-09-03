@@ -20,7 +20,9 @@ This is an introduction to Helm.
 `gcloud init`
 
 Fill with this:
+
 `region: europe-west1`
+
 `zone: europe-west1-d`
 
 ## Install kubectl
