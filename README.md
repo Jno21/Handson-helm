@@ -21,6 +21,8 @@ This is an introduction to Helm.
 
 Fill with this:
 
+`project: sandbox-wescale`
+
 `region: europe-west1`
 
 `zone: europe-west1-d`
@@ -35,6 +37,10 @@ Fill with this:
 
 ### Connect to cluster
 `gcloud container clusters get-credentials handson-helm-wescale --zone europe-west1-d --project sandbox-wescale`
+
+Verify it is working:
+`kubectl get ns`
+>It should display all the namespaces available on the cluster. If it is not working come see me !
 
 ### Install helm
 - **Mac OS Brew**: `brew install kubernetes-helm`
