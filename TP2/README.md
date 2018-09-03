@@ -35,7 +35,7 @@ This allow you to update the version of your chart and create new release easily
 ## Create a new version of the Chart.
 
 I want a new version of the Chart. To do this edit your current Chart with:
-- Delete the `ingress.yaml` file and remove the vars link to it in `value.yaml`.
+- Delete the `ingress.yaml` file and remove the vars link to it in `values.yaml`.
 - Create a new environment `dev.yaml` with the `tag: dev`.
 - Create a new release with the version `1.0.0`
 - Add it to your docs and update the index.

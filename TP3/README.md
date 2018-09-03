@@ -5,7 +5,7 @@
 Let's install a plugin to helm to be able to see the diff between an upgrade, that could be very useful !
 
 - `helm plugin install https://github.com/databus23/helm-diff --version master`
-- Change your `value.yaml` inside your **supermario** repository to replace `resources: {}` by
+- Change your `values.yaml` inside your **supermario** repository to replace `resources: {}` by
 ```
 resources:
   limits:
